@@ -13,5 +13,3 @@ function create(name, email, date, senha, senhaConf){
 
   return firebase.database().ref().child('users').push(data);
 }
-
-
