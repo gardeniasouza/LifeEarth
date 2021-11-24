@@ -4,7 +4,8 @@ authFormLog.onsubmit = function (event) {
       firebase.auth().signInWithEmailAndPassword(authFormLog.emailLog.value, authFormLog.senhaLog.value).catch(function (error) {
         console.log('Falha no acesso')
         console.log(error)
-      })
+      }
+      )
     }
   }
   authFormCad.onsubmit = function (event) {
