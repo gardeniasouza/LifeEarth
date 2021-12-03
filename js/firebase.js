@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyAz6cX2qRQRGh-kQsKIyKDwokD3pOFH7W0",
-  authDomain: "unifg-lifeearth.firebaseapp.com",
-  databaseURL: "https://unifg-lifeearth-default-rtdb.firebaseio.com",
-  projectId: "unifg-lifeearth",
-  storageBucket: "unifg-lifeearth.appspot.com",
-  messagingSenderId: "982418968686",
-  appId: "1:982418968686:web:2d3343c4f13d756d72167f"
+  apiKey: "AIzaSyAeFEE81JxiMdnGMnHtB0VKm3tVxp28rME",
+  authDomain: "lifeearthfg.firebaseapp.com",
+  databaseURL: "https://lifeearthfg-default-rtdb.firebaseio.com",
+  projectId: "lifeearthfg",
+  storageBucket: "lifeearthfg.appspot.com",
+  messagingSenderId: "645995596726",
+  appId: "1:645995596726:web:730564c3cdd552774fcf17"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
