@@ -10,3 +10,7 @@ var submitAuthFormLog = document.getElementById('submitAuthFormLog');
 //Not Used
 var cadUserButton = document.getElementById('cadUserButton');
 var LogUserButton = document.getElementById('LogUserButton');
+
+//Displays
+var displayName = document.getElementById('displayName');
+

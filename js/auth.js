@@ -1,7 +1,12 @@
 authFormLog.onsubmit = function (event) {
     event.preventDefault()
     if (authFormLog.submitAuthFormLog.innerHTML == 'Entrar') {
-      firebase.auth().signInWithEmailAndPassword(authFormLog.emailLog.value, authFormLog.senhaLog.value).catch(function (error) {
+      firebase.auth().signInWithEmailAndPassword(authFormLog.emailLog.value, authFormLog.senhaLog.value)
+      .then(function () {
+        alert('Bem Vindo');
+        window.location.href="./dashboard.html";
+      })
+      .catch(function (error) {
         console.log('Falha no acesso')
         console.log(error)
       }
