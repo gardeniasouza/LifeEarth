@@ -13,4 +13,3 @@ var LogUserButton = document.getElementById('LogUserButton');
 
 //Displays
 var displayName = document.getElementById('displayName');
-
