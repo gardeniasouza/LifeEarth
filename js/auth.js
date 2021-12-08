@@ -13,7 +13,6 @@ authFormLog.onsubmit = function (event) {
   if (authFormLog.submitAuthFormLog.innerHTML == 'Entrar') {
     firebase.auth().signInWithEmailAndPassword(authFormLog.emailLog.value, authFormLog.senhaLog.value)
       .then(function () {
-        alert('Login realizado com sucesso!');
         window.location.href = "./dashboard.html";
       })
       .catch(function (error) {
@@ -32,7 +31,6 @@ authFormCad.onsubmit = function (event) {
           displayName: document.getElementById("nome").value,
         })
       }).then(function () {
-        alert('Cadastro realizado com sucesso!');
         window.location.href = "./dashboard.html";
       })
       .catch(function (error) {
@@ -41,7 +39,6 @@ authFormCad.onsubmit = function (event) {
       })
   }
 }
-
 
 // Autenticar com Google
 //authGoogleButton.addEventListener('click', function () {

@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(60deg, #033450, #3FA9F5, rgb(0, 38, 87), rgb(36, 34, 107));
+  background: linear-gradient(30deg, rgba(122,201,67,1) 40%, rgba(229,244,218,1) 71%);
   font-family: 'Nunito', sans-serif;
 }
 
